@@ -7,7 +7,7 @@ function fecha() {
 
     var diaStr = (dia < 10) ? "0" + dia : dia;
     var mesStr = (mes < 10) ? "0" + mes : mes;
-    var anioStr = String(anioStr).slice(-2);
+    var anioStr = String(anio).slice(-2);
 
 alert("Hoy es " + diaStr + "/" + mesStr + "/" + anioStr);
 
